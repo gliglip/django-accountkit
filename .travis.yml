@@ -1,6 +1,6 @@
 sudo: false
 language: python
-python: 3.6
+python: 3.5
 env:
   - TOXENV=py27-django-111
   - TOXENV=py35-django-111
