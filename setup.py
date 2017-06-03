@@ -25,7 +25,7 @@ setup(
     author_email='caulagi@gmail.com',
     url='http://github.com/toystori/django-accountkit/',
     packages=['accountkit'],
-    package_data={'': ['LICENSE', 'HISTORY.rst']},
+    package_data={'': ['LICENSE', 'HISTORY.rst', 'README.md']},
     include_package_data=True,
     install_requires=[
         'Django',
