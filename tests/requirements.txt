@@ -3,6 +3,5 @@ coverage
 flake8
 isort
 mock
-pytest
 pytest-cov
 pytest-django
