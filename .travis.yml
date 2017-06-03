@@ -28,9 +28,9 @@ matrix:
       env: TOXENV=py36-django-18
     - env: TOXENV=lint
     - env: TOXENV=readme
-install: travis_retry pip install tox coveralls wheel
+install: travis_retry pip install tox codecov wheel
 script: tox -v -- -v
-after_success: coveralls
+after_success: codecov
 notifications:
   webhooks:
     urls:
